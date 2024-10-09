@@ -1,0 +1,356 @@
+UpdateCTestConfiguration  from :/home/mene/ws_mobile/build/mobile_robot/CTestConfiguration.ini
+Parse Config file:/home/mene/ws_mobile/build/mobile_robot/CTestConfiguration.ini
+   Site: DESKTOP-EUCNPRE
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20241004-1356 - Experimental
+UpdateCTestConfiguration  from :/home/mene/ws_mobile/build/mobile_robot/CTestConfiguration.ini
+Parse Config file:/home/mene/ws_mobile/build/mobile_robot/CTestConfiguration.ini
+Test project /home/mene/ws_mobile/build/mobile_robot
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: flake8
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/flake8.xunit.xml" "--package-name" "mobile_robot" "--output-file" "/home/mene/ws_mobile/build/mobile_robot/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/flake8.xunit.xml"
+1: Working Directory: /home/mene/ws_mobile/src/mobile_robot
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/mene/ws_mobile/src/mobile_robot':
+1:  - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/flake8.xunit.xml
+1: from ament_index_python.packages import get_package_share_directory
+1: ^
+1: def generate_launch_description():
+1: ^
+1:     robotXacroName="differential_drive_robot"
+1:                   ^
+1:     robotXacroName="differential_drive_robot"
+1:                    ^
+1:     
+1: ^
+1:     namePackage="mobile_robot"
+1:                ^
+1:     namePackage="mobile_robot"
+1:                 ^
+1:     
+1: ^
+1:     modelFileRelativePath="model/robot.xacro"
+1:                          ^
+1:     modelFileRelativePath="model/robot.xacro"
+1:                           ^
+1:     
+1: ^
+1:     
+1: ^
+1:     robotDescription= xacro.process_file(pathModelFile).toxml()
+1:                     ^
+1:     
+1: ^
+1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))
+1:                            ^
+1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))
+1:                                                                                                    ^
+1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))
+1:                                                                                                    ^
+1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))
+1:                                                                                                                 ^
+1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))
+1:                                                                                                                  ^
+1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))
+1:                                                                                                                          ^
+1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))
+1:                                                                                                                           ^
+1:    
+1: ^
+1:     gazeboLaunch = IncludeLaunchDescription(gazebo_rosPackageLaunch, launch_arguments={"gz_args": ["-r -v -v4 empty.sdf"], "on_exit_shutdown": "true"}.items())
+1:                                                                                        ^
+1:     gazeboLaunch = IncludeLaunchDescription(gazebo_rosPackageLaunch, launch_arguments={"gz_args": ["-r -v -v4 empty.sdf"], "on_exit_shutdown": "true"}.items())
+1:                                                                                                    ^
+1:     gazeboLaunch = IncludeLaunchDescription(gazebo_rosPackageLaunch, launch_arguments={"gz_args": ["-r -v -v4 empty.sdf"], "on_exit_shutdown": "true"}.items())
+1:                                                                                                    ^
+1:     gazeboLaunch = IncludeLaunchDescription(gazebo_rosPackageLaunch, launch_arguments={"gz_args": ["-r -v -v4 empty.sdf"], "on_exit_shutdown": "true"}.items())
+1:                                                                                                                            ^
+1:     gazeboLaunch = IncludeLaunchDescription(gazebo_rosPackageLaunch, launch_arguments={"gz_args": ["-r -v -v4 empty.sdf"], "on_exit_shutdown": "true"}.items())
+1:                                                                                                                                                ^
+1:     
+1: ^
+1:         package="ros_gz_sim",
+1:                 ^
+1:         executable="create",
+1:                    ^
+1:             "-name", robotXacroName,
+1:             ^
+1:             "-topic", "robot_description"
+1:             ^
+1:             "-topic", "robot_description"
+1:                       ^
+1:         output="screen",        
+1:                ^
+1:         output="screen",        
+1:                         ^
+1:     
+1: ^
+1:         package="robot_state_publisher",
+1:                 ^
+1:         executable="robot_state_publisher",
+1:                    ^
+1:         output="screen",
+1:                ^
+1:         parameters=[{"robot_description": robotDescription, "use_sim_time": True}]
+1:                      ^
+1:         parameters=[{"robot_description": robotDescription, "use_sim_time": True}]
+1:                                                             ^
+1:     
+1: ^
+1:     get_package_share_directory(namePackage),
+1:     ^
+1:     "parameters",
+1:     ^
+1:     "parameters",
+1:     ^
+1:     "bridge_parameters.yaml"
+1:     ^
+1:     "bridge_parameters.yaml"
+1:     ^
+1:     
+1: ^
+1:         package="ros_gz_bridge",
+1:                 ^
+1:         executable="parameter_bridge",
+1:                    ^
+1:             "--ros-args",
+1:             ^
+1:             "-p",
+1:             ^
+1:             f"config_file:={bridge_params}",
+1:             ^
+1:     output="screen",
+1:     ^
+1:     output="screen",
+1:            ^
+1:     
+1: ^
+1:     
+1: ^
+1:     
+1: ^
+1:     
+1: ^
+1:     
+1: ^
+1:     
+1: ^
+1:     ^
+1:         ^
+1: 4     E122 continuation line missing indentation or outdented
+1: 5     E225 missing whitespace around operator
+1: 2     E231 missing whitespace after ','
+1: 1     E302 expected 2 blank lines, found 1
+1: 2     E501 line too long (142 > 99 characters)
+1: 1     I201 Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.
+1: 29    Q000 Double quotes found but single quotes preferred
+1: 1     W291 trailing whitespace
+1: 1     W292 no newline at end of file
+1: 17    W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:2:1: I201 Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.
+1: 
+1: ./launch/gazebo_model.launch.py:10:1: E302 expected 2 blank lines, found 1
+1: 
+1: ./launch/gazebo_model.launch.py:12:19: E225 missing whitespace around operator
+1: 
+1: ./launch/gazebo_model.launch.py:12:20: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:13:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:14:16: E225 missing whitespace around operator
+1: 
+1: ./launch/gazebo_model.launch.py:14:17: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:15:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:16:26: E225 missing whitespace around operator
+1: 
+1: ./launch/gazebo_model.launch.py:16:27: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:17:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:19:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:20:21: E225 missing whitespace around operator
+1: 
+1: ./launch/gazebo_model.launch.py:21:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:22:28: E225 missing whitespace around operator
+1: 
+1: ./launch/gazebo_model.launch.py:22:100: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:22:100: E501 line too long (142 > 99 characters)
+1: 
+1: ./launch/gazebo_model.launch.py:22:113: E231 missing whitespace after ','
+1: 
+1: ./launch/gazebo_model.launch.py:22:114: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:22:122: E231 missing whitespace after ','
+1: 
+1: ./launch/gazebo_model.launch.py:22:123: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:23:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:24:88: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:24:100: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:24:100: E501 line too long (159 > 99 characters)
+1: 
+1: ./launch/gazebo_model.launch.py:24:124: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:24:144: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:25:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:27:17: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:28:20: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:30:13: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:31:13: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:31:23: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:33:16: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:33:25: W291 trailing whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:35:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:37:17: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:38:20: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:39:16: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:40:22: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:40:61: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:42:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:44:5: E122 continuation line missing indentation or outdented
+1: 
+1: ./launch/gazebo_model.launch.py:45:5: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:45:5: E122 continuation line missing indentation or outdented
+1: 
+1: ./launch/gazebo_model.launch.py:46:5: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:46:5: E122 continuation line missing indentation or outdented
+1: 
+1: ./launch/gazebo_model.launch.py:48:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:50:17: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:51:20: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:53:13: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:54:13: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:55:13: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:57:5: E122 continuation line missing indentation or outdented
+1: 
+1: ./launch/gazebo_model.launch.py:57:12: Q000 Double quotes found but single quotes preferred
+1: 
+1: ./launch/gazebo_model.launch.py:59:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:61:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:63:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:67:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:69:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:70:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:71:1: W293 blank line contains whitespace
+1: 
+1: ./launch/gazebo_model.launch.py:71:5: W292 no newline at end of file
+1: 
+1: 
+1: 1 files checked
+1: 63 errors
+1: 
+1: 'E'-type errors: 14
+1: 'I'-type errors: 1
+1: 'Q'-type errors: 29
+1: 'W'-type errors: 19
+1: 
+1: Checked files:
+1: 
+1: * ./launch/gazebo_model.launch.py
+1: -- run_test.py: return code 1
+1: -- run_test.py: verify result file '/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/flake8.xunit.xml'
+1/4 Test #1: flake8 ...........................***Failed    0.47 sec
+test 2
+    Start 2: lint_cmake
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/lint_cmake.xunit.xml" "--package-name" "mobile_robot" "--output-file" "/home/mene/ws_mobile/build/mobile_robot/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/lint_cmake.xunit.xml"
+2: Working Directory: /home/mene/ws_mobile/src/mobile_robot
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/home/mene/ws_mobile/src/mobile_robot':
+2:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/lint_cmake.xunit.xml
+2: 
+2: No problems found
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/lint_cmake.xunit.xml'
+2/4 Test #2: lint_cmake .......................   Passed    0.27 sec
+test 3
+    Start 3: pep257
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/pep257.xunit.xml" "--package-name" "mobile_robot" "--output-file" "/home/mene/ws_mobile/build/mobile_robot/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/pep257.xunit.xml"
+3: Working Directory: /home/mene/ws_mobile/src/mobile_robot
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/mene/ws_mobile/src/mobile_robot':
+3:  - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/pep257.xunit.xml
+3: checking ./launch/gazebo_model.launch.py
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/pep257.xunit.xml'
+3/4 Test #3: pep257 ...........................   Passed    0.31 sec
+test 4
+    Start 4: xmllint
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/xmllint.xunit.xml" "--package-name" "mobile_robot" "--output-file" "/home/mene/ws_mobile/build/mobile_robot/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/xmllint.xunit.xml"
+4: Working Directory: /home/mene/ws_mobile/src/mobile_robot
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/mene/ws_mobile/src/mobile_robot':
+4:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/xmllint.xunit.xml
+4: File 'package.xml' is valid
+4: 
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/xmllint.xunit.xml'
+4/4 Test #4: xmllint ..........................   Passed    1.91 sec
+
+75% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 4
+
+Label Time Summary:
+flake8        =   0.47 sec*proc (1 test)
+lint_cmake    =   0.27 sec*proc (1 test)
+linter        =   2.96 sec*proc (4 tests)
+pep257        =   0.31 sec*proc (1 test)
+xmllint       =   1.91 sec*proc (1 test)
+
+Total Test time (real) =   2.97 sec
+
+The following tests FAILED:
+	[0;31m  1 - flake8 (Failed)[0;0m
+Errors while running CTest
+Output from these tests are in: /home/mene/ws_mobile/build/mobile_robot/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

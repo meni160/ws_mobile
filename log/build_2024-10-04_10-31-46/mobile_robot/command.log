@@ -1,0 +1,4 @@
+Invoking command in '/home/mene/ws_mobile/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mene/ws_mobile/build/mobile_robot -- -j4 -l4
+Invoked command in '/home/mene/ws_mobile/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mene/ws_mobile/build/mobile_robot -- -j4 -l4
+Invoking command in '/home/mene/ws_mobile/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mene/ws_mobile/build/mobile_robot
+Invoked command in '/home/mene/ws_mobile/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mene/ws_mobile/build/mobile_robot

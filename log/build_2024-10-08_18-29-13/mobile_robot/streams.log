@@ -1,0 +1,52 @@
+[0.005s] Invoking command in '/home/lucas/ws_mobile/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lucas/ws_mobile/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/lucas/ws_mobile/install/mobile_robot
+[0.060s] -- The C compiler identification is GNU 13.2.0
+[0.112s] -- The CXX compiler identification is GNU 13.2.0
+[0.125s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.234s] -- Detecting CXX compiler ABI info
+[0.330s] -- Detecting CXX compiler ABI info - done
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.338s] -- Detecting CXX compile features
+[0.338s] -- Detecting CXX compile features - done
+[0.344s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.443s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.516s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.587s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.588s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.588s] -- Added test 'lint_cmake' to check CMake code style
+[0.588s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.589s] -- Added test 'xmllint' to check XML markup files
+[0.590s] -- Configuring done (0.6s)
+[0.591s] -- Generating done (0.0s)
+[0.592s] -- Build files have been written to: /home/lucas/ws_mobile/build/mobile_robot
+[0.595s] Invoked command in '/home/lucas/ws_mobile/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lucas/ws_mobile/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/lucas/ws_mobile/install/mobile_robot
+[0.596s] Invoking command in '/home/lucas/ws_mobile/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lucas/ws_mobile/build/mobile_robot -- -j20 -l20
+[0.631s] Invoked command in '/home/lucas/ws_mobile/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lucas/ws_mobile/build/mobile_robot -- -j20 -l20
+[0.669s] Invoking command in '/home/lucas/ws_mobile/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lucas/ws_mobile/build/mobile_robot
+[0.683s] -- Install configuration: ""
+[0.683s] -- Up-to-date: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/launch
+[0.683s] -- Up-to-date: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/launch/gazebo_model.launch.py
+[0.683s] -- Up-to-date: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/model
+[0.683s] -- Up-to-date: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/model/robot.gazebo
+[0.683s] -- Up-to-date: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/model/robot.xacro
+[0.683s] -- Up-to-date: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/parameters
+[0.684s] -- Up-to-date: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/parameters/bridge_parameters.yaml
+[0.684s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[0.684s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[0.684s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[0.684s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[0.684s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/environment/path.sh
+[0.684s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[0.684s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/local_setup.bash
+[0.684s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/local_setup.sh
+[0.684s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[0.684s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[0.684s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/package.dsv
+[0.684s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[0.685s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[0.685s] -- Installing: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[0.685s] -- Up-to-date: /home/lucas/ws_mobile/install/mobile_robot/share/mobile_robot/package.xml
+[0.686s] Invoked command in '/home/lucas/ws_mobile/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lucas/ws_mobile/build/mobile_robot

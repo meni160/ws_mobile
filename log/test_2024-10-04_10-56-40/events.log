@@ -1,0 +1,395 @@
+[0.000000] (-) TimerEvent: {}
+[0.000646] (mobile_robot) JobQueued: {'identifier': 'mobile_robot', 'dependencies': OrderedDict({'mobile_robot': '/home/mene/ws_mobile/install/mobile_robot'})}
+[0.001292] (mobile_robot) JobStarted: {'identifier': 'mobile_robot'}
+[0.099918] (-) TimerEvent: {}
+[0.207338] (-) TimerEvent: {}
+[0.208720] (mobile_robot) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/mene/ws_mobile/build/mobile_robot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mene', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mene', 'OLDPWD': '/home/mene/ws_mobile/src/mobile_robot/launch', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/opt/ros/jazzy/', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mene/ws_mobile/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mene', 'NAME': 'DESKTOP-EUCNPRE', 'WSL_INTEROP': '/run/WSL/21891_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu24.04LTS_2404.1.24.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/e/Program Files/Polyspace/R2021a/runtime/win64:/mnt/e/Program Files/Polyspace/R2021a/bin:/mnt/e/Program Files/Polyspace/R2021a/polyspace/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/platform-tools/adb.exe:/mnt/c/Program Files/platform-tools/:/mnt/c/Program Files/Pandoc/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/e/Program Files/Microchip/xc8/v2.36/bin:/mnt/e/Program Files/Git/cmd:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/Mene/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Mene/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Mene/AppData/Local/Microsoft/WindowsApps:/mnt/e/Users/Mene/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/e/Users/Mene/.espressif/tools/idf-python/3.11.2/Scripts:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/mene/ws_mobile/install/mobile_robot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mene/ws_mobile/build/mobile_robot', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/mene/ws_mobile/install/mobile_robot:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': ''}), 'shell': False}
+[0.219773] (mobile_robot) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/mene/ws_mobile/build/mobile_robot/CTestConfiguration.ini\n'}
+[0.220546] (mobile_robot) StdoutLine: {'line': b'Parse Config file:/home/mene/ws_mobile/build/mobile_robot/CTestConfiguration.ini\n'}
+[0.220703] (mobile_robot) StdoutLine: {'line': b'   Site: DESKTOP-EUCNPRE\n'}
+[0.221048] (mobile_robot) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.221207] (mobile_robot) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.221444] (mobile_robot) StdoutLine: {'line': b'Create new tag: 20241004-1356 - Experimental\n'}
+[0.221667] (mobile_robot) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/mene/ws_mobile/build/mobile_robot/CTestConfiguration.ini\n'}
+[0.221898] (mobile_robot) StdoutLine: {'line': b'Parse Config file:/home/mene/ws_mobile/build/mobile_robot/CTestConfiguration.ini\n'}
+[0.222087] (mobile_robot) StdoutLine: {'line': b'Test project /home/mene/ws_mobile/build/mobile_robot\n'}
+[0.222304] (mobile_robot) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.222522] (mobile_robot) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.222740] (mobile_robot) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.222871] (mobile_robot) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.222957] (mobile_robot) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.223071] (mobile_robot) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.223233] (mobile_robot) StdoutLine: {'line': b'test 1\n'}
+[0.223512] (mobile_robot) StdoutLine: {'line': b'    Start 1: flake8\n'}
+[0.223608] (mobile_robot) StdoutLine: {'line': b'\n'}
+[0.223697] (mobile_robot) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/flake8.xunit.xml" "--package-name" "mobile_robot" "--output-file" "/home/mene/ws_mobile/build/mobile_robot/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/flake8.xunit.xml"\n'}
+[0.223787] (mobile_robot) StdoutLine: {'line': b'1: Working Directory: /home/mene/ws_mobile/src/mobile_robot\n'}
+[0.223868] (mobile_robot) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.308270] (-) TimerEvent: {}
+[0.312481] (mobile_robot) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/mene/ws_mobile/src/mobile_robot':\n"}
+[0.312715] (mobile_robot) StdoutLine: {'line': b'1:  - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/flake8.xunit.xml\n'}
+[0.409255] (-) TimerEvent: {}
+[0.509926] (-) TimerEvent: {}
+[0.610744] (-) TimerEvent: {}
+[0.640406] (mobile_robot) StdoutLine: {'line': b'1: from ament_index_python.packages import get_package_share_directory\n'}
+[0.640819] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.641137] (mobile_robot) StdoutLine: {'line': b'1: def generate_launch_description():\n'}
+[0.641500] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.641778] (mobile_robot) StdoutLine: {'line': b'1:     robotXacroName="differential_drive_robot"\n'}
+[0.642000] (mobile_robot) StdoutLine: {'line': b'1:                   ^\n'}
+[0.642219] (mobile_robot) StdoutLine: {'line': b'1:     robotXacroName="differential_drive_robot"\n'}
+[0.642436] (mobile_robot) StdoutLine: {'line': b'1:                    ^\n'}
+[0.643151] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.643622] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.643739] (mobile_robot) StdoutLine: {'line': b'1:     namePackage="mobile_robot"\n'}
+[0.643823] (mobile_robot) StdoutLine: {'line': b'1:                ^\n'}
+[0.643904] (mobile_robot) StdoutLine: {'line': b'1:     namePackage="mobile_robot"\n'}
+[0.643984] (mobile_robot) StdoutLine: {'line': b'1:                 ^\n'}
+[0.644062] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.644140] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.644217] (mobile_robot) StdoutLine: {'line': b'1:     modelFileRelativePath="model/robot.xacro"\n'}
+[0.644294] (mobile_robot) StdoutLine: {'line': b'1:                          ^\n'}
+[0.644369] (mobile_robot) StdoutLine: {'line': b'1:     modelFileRelativePath="model/robot.xacro"\n'}
+[0.644445] (mobile_robot) StdoutLine: {'line': b'1:                           ^\n'}
+[0.644520] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.644595] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.644696] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.644782] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.644860] (mobile_robot) StdoutLine: {'line': b'1:     robotDescription= xacro.process_file(pathModelFile).toxml()\n'}
+[0.644937] (mobile_robot) StdoutLine: {'line': b'1:                     ^\n'}
+[0.645012] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.645089] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.645165] (mobile_robot) StdoutLine: {'line': b'1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))\n'}
+[0.645242] (mobile_robot) StdoutLine: {'line': b'1:                            ^\n'}
+[0.645317] (mobile_robot) StdoutLine: {'line': b'1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))\n'}
+[0.645392] (mobile_robot) StdoutLine: {'line': b'1:                                                                                                    ^\n'}
+[0.645466] (mobile_robot) StdoutLine: {'line': b'1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))\n'}
+[0.645541] (mobile_robot) StdoutLine: {'line': b'1:                                                                                                    ^\n'}
+[0.645616] (mobile_robot) StdoutLine: {'line': b'1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))\n'}
+[0.645690] (mobile_robot) StdoutLine: {'line': b'1:                                                                                                                 ^\n'}
+[0.645789] (mobile_robot) StdoutLine: {'line': b'1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))\n'}
+[0.645890] (mobile_robot) StdoutLine: {'line': b'1:                                                                                                                  ^\n'}
+[0.645977] (mobile_robot) StdoutLine: {'line': b'1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))\n'}
+[0.646094] (mobile_robot) StdoutLine: {'line': b'1:                                                                                                                          ^\n'}
+[0.646203] (mobile_robot) StdoutLine: {'line': b'1:     gazebo_rosPackageLaunch=PythonLaunchDescriptionSource(os.path.join(generate_launch_description("ros_gz_sim"),"launch","gz_sim.launch.py"))\n'}
+[0.646281] (mobile_robot) StdoutLine: {'line': b'1:                                                                                                                           ^\n'}
+[0.646357] (mobile_robot) StdoutLine: {'line': b'1:    \n'}
+[0.646431] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.646506] (mobile_robot) StdoutLine: {'line': b'1:     gazeboLaunch = IncludeLaunchDescription(gazebo_rosPackageLaunch, launch_arguments={"gz_args": ["-r -v -v4 empty.sdf"], "on_exit_shutdown": "true"}.items())\n'}
+[0.646598] (mobile_robot) StdoutLine: {'line': b'1:                                                                                        ^\n'}
+[0.646674] (mobile_robot) StdoutLine: {'line': b'1:     gazeboLaunch = IncludeLaunchDescription(gazebo_rosPackageLaunch, launch_arguments={"gz_args": ["-r -v -v4 empty.sdf"], "on_exit_shutdown": "true"}.items())\n'}
+[0.646752] (mobile_robot) StdoutLine: {'line': b'1:                                                                                                    ^\n'}
+[0.646826] (mobile_robot) StdoutLine: {'line': b'1:     gazeboLaunch = IncludeLaunchDescription(gazebo_rosPackageLaunch, launch_arguments={"gz_args": ["-r -v -v4 empty.sdf"], "on_exit_shutdown": "true"}.items())\n'}
+[0.646962] (mobile_robot) StdoutLine: {'line': b'1:                                                                                                    ^\n'}
+[0.647067] (mobile_robot) StdoutLine: {'line': b'1:     gazeboLaunch = IncludeLaunchDescription(gazebo_rosPackageLaunch, launch_arguments={"gz_args": ["-r -v -v4 empty.sdf"], "on_exit_shutdown": "true"}.items())\n'}
+[0.647144] (mobile_robot) StdoutLine: {'line': b'1:                                                                                                                            ^\n'}
+[0.647219] (mobile_robot) StdoutLine: {'line': b'1:     gazeboLaunch = IncludeLaunchDescription(gazebo_rosPackageLaunch, launch_arguments={"gz_args": ["-r -v -v4 empty.sdf"], "on_exit_shutdown": "true"}.items())\n'}
+[0.647294] (mobile_robot) StdoutLine: {'line': b'1:                                                                                                                                                ^\n'}
+[0.647368] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.647441] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.647515] (mobile_robot) StdoutLine: {'line': b'1:         package="ros_gz_sim",\n'}
+[0.647590] (mobile_robot) StdoutLine: {'line': b'1:                 ^\n'}
+[0.647664] (mobile_robot) StdoutLine: {'line': b'1:         executable="create",\n'}
+[0.647739] (mobile_robot) StdoutLine: {'line': b'1:                    ^\n'}
+[0.647814] (mobile_robot) StdoutLine: {'line': b'1:             "-name", robotXacroName,\n'}
+[0.647889] (mobile_robot) StdoutLine: {'line': b'1:             ^\n'}
+[0.647999] (mobile_robot) StdoutLine: {'line': b'1:             "-topic", "robot_description"\n'}
+[0.648089] (mobile_robot) StdoutLine: {'line': b'1:             ^\n'}
+[0.648168] (mobile_robot) StdoutLine: {'line': b'1:             "-topic", "robot_description"\n'}
+[0.648245] (mobile_robot) StdoutLine: {'line': b'1:                       ^\n'}
+[0.648322] (mobile_robot) StdoutLine: {'line': b'1:         output="screen",        \n'}
+[0.648415] (mobile_robot) StdoutLine: {'line': b'1:                ^\n'}
+[0.648496] (mobile_robot) StdoutLine: {'line': b'1:         output="screen",        \n'}
+[0.648583] (mobile_robot) StdoutLine: {'line': b'1:                         ^\n'}
+[0.648671] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.648758] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.648832] (mobile_robot) StdoutLine: {'line': b'1:         package="robot_state_publisher",\n'}
+[0.649002] (mobile_robot) StdoutLine: {'line': b'1:                 ^\n'}
+[0.649132] (mobile_robot) StdoutLine: {'line': b'1:         executable="robot_state_publisher",\n'}
+[0.649228] (mobile_robot) StdoutLine: {'line': b'1:                    ^\n'}
+[0.649304] (mobile_robot) StdoutLine: {'line': b'1:         output="screen",\n'}
+[0.649379] (mobile_robot) StdoutLine: {'line': b'1:                ^\n'}
+[0.649454] (mobile_robot) StdoutLine: {'line': b'1:         parameters=[{"robot_description": robotDescription, "use_sim_time": True}]\n'}
+[0.649531] (mobile_robot) StdoutLine: {'line': b'1:                      ^\n'}
+[0.649606] (mobile_robot) StdoutLine: {'line': b'1:         parameters=[{"robot_description": robotDescription, "use_sim_time": True}]\n'}
+[0.649682] (mobile_robot) StdoutLine: {'line': b'1:                                                             ^\n'}
+[0.649757] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.649833] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.649907] (mobile_robot) StdoutLine: {'line': b'1:     get_package_share_directory(namePackage),\n'}
+[0.649982] (mobile_robot) StdoutLine: {'line': b'1:     ^\n'}
+[0.650056] (mobile_robot) StdoutLine: {'line': b'1:     "parameters",\n'}
+[0.650159] (mobile_robot) StdoutLine: {'line': b'1:     ^\n'}
+[0.650255] (mobile_robot) StdoutLine: {'line': b'1:     "parameters",\n'}
+[0.650332] (mobile_robot) StdoutLine: {'line': b'1:     ^\n'}
+[0.650408] (mobile_robot) StdoutLine: {'line': b'1:     "bridge_parameters.yaml"\n'}
+[0.650483] (mobile_robot) StdoutLine: {'line': b'1:     ^\n'}
+[0.650558] (mobile_robot) StdoutLine: {'line': b'1:     "bridge_parameters.yaml"\n'}
+[0.650631] (mobile_robot) StdoutLine: {'line': b'1:     ^\n'}
+[0.650704] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.650778] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.650852] (mobile_robot) StdoutLine: {'line': b'1:         package="ros_gz_bridge",\n'}
+[0.650926] (mobile_robot) StdoutLine: {'line': b'1:                 ^\n'}
+[0.651000] (mobile_robot) StdoutLine: {'line': b'1:         executable="parameter_bridge",\n'}
+[0.651075] (mobile_robot) StdoutLine: {'line': b'1:                    ^\n'}
+[0.651150] (mobile_robot) StdoutLine: {'line': b'1:             "--ros-args",\n'}
+[0.651224] (mobile_robot) StdoutLine: {'line': b'1:             ^\n'}
+[0.651345] (mobile_robot) StdoutLine: {'line': b'1:             "-p",\n'}
+[0.651436] (mobile_robot) StdoutLine: {'line': b'1:             ^\n'}
+[0.651511] (mobile_robot) StdoutLine: {'line': b'1:             f"config_file:={bridge_params}",\n'}
+[0.651586] (mobile_robot) StdoutLine: {'line': b'1:             ^\n'}
+[0.651660] (mobile_robot) StdoutLine: {'line': b'1:     output="screen",\n'}
+[0.651734] (mobile_robot) StdoutLine: {'line': b'1:     ^\n'}
+[0.651808] (mobile_robot) StdoutLine: {'line': b'1:     output="screen",\n'}
+[0.651882] (mobile_robot) StdoutLine: {'line': b'1:            ^\n'}
+[0.651965] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.652043] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.652118] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.652192] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.652266] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.652357] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.652450] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.652526] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.652601] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.652675] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.652749] (mobile_robot) StdoutLine: {'line': b'1:     \n'}
+[0.652823] (mobile_robot) StdoutLine: {'line': b'1: ^\n'}
+[0.652907] (mobile_robot) StdoutLine: {'line': b'1:     ^\n'}
+[0.652981] (mobile_robot) StdoutLine: {'line': b'1:         ^\n'}
+[0.653055] (mobile_robot) StdoutLine: {'line': b'1: 4     E122 continuation line missing indentation or outdented\n'}
+[0.653130] (mobile_robot) StdoutLine: {'line': b'1: 5     E225 missing whitespace around operator\n'}
+[0.653205] (mobile_robot) StdoutLine: {'line': b"1: 2     E231 missing whitespace after ','\n"}
+[0.653279] (mobile_robot) StdoutLine: {'line': b'1: 1     E302 expected 2 blank lines, found 1\n'}
+[0.653353] (mobile_robot) StdoutLine: {'line': b'1: 2     E501 line too long (142 > 99 characters)\n'}
+[0.653427] (mobile_robot) StdoutLine: {'line': b"1: 1     I201 Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.\n"}
+[0.653537] (mobile_robot) StdoutLine: {'line': b'1: 29    Q000 Double quotes found but single quotes preferred\n'}
+[0.653617] (mobile_robot) StdoutLine: {'line': b'1: 1     W291 trailing whitespace\n'}
+[0.653692] (mobile_robot) StdoutLine: {'line': b'1: 1     W292 no newline at end of file\n'}
+[0.653768] (mobile_robot) StdoutLine: {'line': b'1: 17    W293 blank line contains whitespace\n'}
+[0.653843] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.653918] (mobile_robot) StdoutLine: {'line': b"1: ./launch/gazebo_model.launch.py:2:1: I201 Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.\n"}
+[0.653995] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.654069] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:10:1: E302 expected 2 blank lines, found 1\n'}
+[0.654143] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.654216] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:12:19: E225 missing whitespace around operator\n'}
+[0.654290] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.654363] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:12:20: Q000 Double quotes found but single quotes preferred\n'}
+[0.654440] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.654513] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:13:1: W293 blank line contains whitespace\n'}
+[0.654638] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.654730] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:14:16: E225 missing whitespace around operator\n'}
+[0.654821] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.654898] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:14:17: Q000 Double quotes found but single quotes preferred\n'}
+[0.654973] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.655048] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:15:1: W293 blank line contains whitespace\n'}
+[0.655123] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.655198] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:16:26: E225 missing whitespace around operator\n'}
+[0.655273] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.655347] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:16:27: Q000 Double quotes found but single quotes preferred\n'}
+[0.655422] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.655497] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:17:1: W293 blank line contains whitespace\n'}
+[0.655572] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.655667] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:19:1: W293 blank line contains whitespace\n'}
+[0.655757] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.655833] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:20:21: E225 missing whitespace around operator\n'}
+[0.655909] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.655984] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:21:1: W293 blank line contains whitespace\n'}
+[0.656069] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.656144] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:22:28: E225 missing whitespace around operator\n'}
+[0.656253] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.656334] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:22:100: Q000 Double quotes found but single quotes preferred\n'}
+[0.656410] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.656485] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:22:100: E501 line too long (142 > 99 characters)\n'}
+[0.656560] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.656635] (mobile_robot) StdoutLine: {'line': b"1: ./launch/gazebo_model.launch.py:22:113: E231 missing whitespace after ','\n"}
+[0.656709] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.656842] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:22:114: Q000 Double quotes found but single quotes preferred\n'}
+[0.656946] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.657021] (mobile_robot) StdoutLine: {'line': b"1: ./launch/gazebo_model.launch.py:22:122: E231 missing whitespace after ','\n"}
+[0.657096] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.657171] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:22:123: Q000 Double quotes found but single quotes preferred\n'}
+[0.657245] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.657318] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:23:1: W293 blank line contains whitespace\n'}
+[0.657392] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.657466] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:24:88: Q000 Double quotes found but single quotes preferred\n'}
+[0.657541] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.657615] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:24:100: Q000 Double quotes found but single quotes preferred\n'}
+[0.657690] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.657764] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:24:100: E501 line too long (159 > 99 characters)\n'}
+[0.657857] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.657948] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:24:124: Q000 Double quotes found but single quotes preferred\n'}
+[0.658027] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.658103] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:24:144: Q000 Double quotes found but single quotes preferred\n'}
+[0.658179] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.658254] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:25:1: W293 blank line contains whitespace\n'}
+[0.658341] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.658417] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:27:17: Q000 Double quotes found but single quotes preferred\n'}
+[0.658493] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.658567] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:28:20: Q000 Double quotes found but single quotes preferred\n'}
+[0.658642] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.658715] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:30:13: Q000 Double quotes found but single quotes preferred\n'}
+[0.658788] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.658862] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:31:13: Q000 Double quotes found but single quotes preferred\n'}
+[0.658955] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.659046] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:31:23: Q000 Double quotes found but single quotes preferred\n'}
+[0.659123] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.659199] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:33:16: Q000 Double quotes found but single quotes preferred\n'}
+[0.659275] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.659409] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:33:25: W291 trailing whitespace\n'}
+[0.659490] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.659580] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:35:1: W293 blank line contains whitespace\n'}
+[0.659667] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.659741] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:37:17: Q000 Double quotes found but single quotes preferred\n'}
+[0.659816] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.659889] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:38:20: Q000 Double quotes found but single quotes preferred\n'}
+[0.659964] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.660072] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:39:16: Q000 Double quotes found but single quotes preferred\n'}
+[0.660174] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.660250] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:40:22: Q000 Double quotes found but single quotes preferred\n'}
+[0.660326] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.660402] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:40:61: Q000 Double quotes found but single quotes preferred\n'}
+[0.660477] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.660552] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:42:1: W293 blank line contains whitespace\n'}
+[0.660627] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.660700] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:44:5: E122 continuation line missing indentation or outdented\n'}
+[0.660776] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.660850] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:45:5: Q000 Double quotes found but single quotes preferred\n'}
+[0.660925] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.660999] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:45:5: E122 continuation line missing indentation or outdented\n'}
+[0.661075] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.661181] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:46:5: Q000 Double quotes found but single quotes preferred\n'}
+[0.661293] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.661375] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:46:5: E122 continuation line missing indentation or outdented\n'}
+[0.661451] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.661526] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:48:1: W293 blank line contains whitespace\n'}
+[0.661601] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.661675] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:50:17: Q000 Double quotes found but single quotes preferred\n'}
+[0.661750] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.661824] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:51:20: Q000 Double quotes found but single quotes preferred\n'}
+[0.661917] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.661992] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:53:13: Q000 Double quotes found but single quotes preferred\n'}
+[0.662067] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.662140] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:54:13: Q000 Double quotes found but single quotes preferred\n'}
+[0.662213] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.662320] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:55:13: Q000 Double quotes found but single quotes preferred\n'}
+[0.662401] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.662476] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:57:5: E122 continuation line missing indentation or outdented\n'}
+[0.662551] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.662626] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:57:12: Q000 Double quotes found but single quotes preferred\n'}
+[0.662710] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.662786] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:59:1: W293 blank line contains whitespace\n'}
+[0.662861] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.662935] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:61:1: W293 blank line contains whitespace\n'}
+[0.663010] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.663084] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:63:1: W293 blank line contains whitespace\n'}
+[0.663158] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.663230] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:67:1: W293 blank line contains whitespace\n'}
+[0.663304] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.663456] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:69:1: W293 blank line contains whitespace\n'}
+[0.663548] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.663625] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:70:1: W293 blank line contains whitespace\n'}
+[0.663700] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.663775] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:71:1: W293 blank line contains whitespace\n'}
+[0.663850] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.663923] (mobile_robot) StdoutLine: {'line': b'1: ./launch/gazebo_model.launch.py:71:5: W292 no newline at end of file\n'}
+[0.663997] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.664070] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.664142] (mobile_robot) StdoutLine: {'line': b'1: 1 files checked\n'}
+[0.664215] (mobile_robot) StdoutLine: {'line': b'1: 63 errors\n'}
+[0.664290] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.664363] (mobile_robot) StdoutLine: {'line': b"1: 'E'-type errors: 14\n"}
+[0.664490] (mobile_robot) StdoutLine: {'line': b"1: 'I'-type errors: 1\n"}
+[0.664574] (mobile_robot) StdoutLine: {'line': b"1: 'Q'-type errors: 29\n"}
+[0.664650] (mobile_robot) StdoutLine: {'line': b"1: 'W'-type errors: 19\n"}
+[0.664725] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.664807] (mobile_robot) StdoutLine: {'line': b'1: Checked files:\n'}
+[0.664884] (mobile_robot) StdoutLine: {'line': b'1: \n'}
+[0.664958] (mobile_robot) StdoutLine: {'line': b'1: * ./launch/gazebo_model.launch.py\n'}
+[0.681034] (mobile_robot) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.681391] (mobile_robot) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/flake8.xunit.xml'\n"}
+[0.694554] (mobile_robot) StdoutLine: {'line': b'1/4 Test #1: flake8 ...........................***Failed    0.47 sec\n'}
+[0.695103] (mobile_robot) StdoutLine: {'line': b'test 2\n'}
+[0.695405] (mobile_robot) StdoutLine: {'line': b'    Start 2: lint_cmake\n'}
+[0.695635] (mobile_robot) StdoutLine: {'line': b'\n'}
+[0.696031] (mobile_robot) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/lint_cmake.xunit.xml" "--package-name" "mobile_robot" "--output-file" "/home/mene/ws_mobile/build/mobile_robot/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/lint_cmake.xunit.xml"\n'}
+[0.696135] (mobile_robot) StdoutLine: {'line': b'2: Working Directory: /home/mene/ws_mobile/src/mobile_robot\n'}
+[0.696220] (mobile_robot) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.711010] (-) TimerEvent: {}
+[0.786656] (mobile_robot) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/mene/ws_mobile/src/mobile_robot':\n"}
+[0.786918] (mobile_robot) StdoutLine: {'line': b'2:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/lint_cmake.xunit.xml\n'}
+[0.811356] (-) TimerEvent: {}
+[0.913062] (-) TimerEvent: {}
+[0.920342] (mobile_robot) StdoutLine: {'line': b'2: \n'}
+[0.920855] (mobile_robot) StdoutLine: {'line': b'2: No problems found\n'}
+[0.947426] (mobile_robot) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.947786] (mobile_robot) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/lint_cmake.xunit.xml'\n"}
+[0.967557] (mobile_robot) StdoutLine: {'line': b'2/4 Test #2: lint_cmake .......................   Passed    0.27 sec\n'}
+[0.967817] (mobile_robot) StdoutLine: {'line': b'test 3\n'}
+[0.968133] (mobile_robot) StdoutLine: {'line': b'    Start 3: pep257\n'}
+[0.968286] (mobile_robot) StdoutLine: {'line': b'\n'}
+[0.968396] (mobile_robot) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/pep257.xunit.xml" "--package-name" "mobile_robot" "--output-file" "/home/mene/ws_mobile/build/mobile_robot/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/pep257.xunit.xml"\n'}
+[0.968492] (mobile_robot) StdoutLine: {'line': b'3: Working Directory: /home/mene/ws_mobile/src/mobile_robot\n'}
+[0.968617] (mobile_robot) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[1.013552] (-) TimerEvent: {}
+[1.068756] (mobile_robot) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/mene/ws_mobile/src/mobile_robot':\n"}
+[1.068962] (mobile_robot) StdoutLine: {'line': b'3:  - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/pep257.xunit.xml\n'}
+[1.114098] (-) TimerEvent: {}
+[1.215187] (-) TimerEvent: {}
+[1.228112] (mobile_robot) StdoutLine: {'line': b'3: checking ./launch/gazebo_model.launch.py\n'}
+[1.228458] (mobile_robot) StdoutLine: {'line': b'3: No problems found\n'}
+[1.265771] (mobile_robot) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[1.266141] (mobile_robot) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/pep257.xunit.xml'\n"}
+[1.280635] (mobile_robot) StdoutLine: {'line': b'3/4 Test #3: pep257 ...........................   Passed    0.31 sec\n'}
+[1.281138] (mobile_robot) StdoutLine: {'line': b'test 4\n'}
+[1.281321] (mobile_robot) StdoutLine: {'line': b'    Start 4: xmllint\n'}
+[1.281427] (mobile_robot) StdoutLine: {'line': b'\n'}
+[1.281556] (mobile_robot) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/xmllint.xunit.xml" "--package-name" "mobile_robot" "--output-file" "/home/mene/ws_mobile/build/mobile_robot/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/xmllint.xunit.xml"\n'}
+[1.281684] (mobile_robot) StdoutLine: {'line': b'4: Working Directory: /home/mene/ws_mobile/src/mobile_robot\n'}
+[1.281771] (mobile_robot) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[1.315907] (-) TimerEvent: {}
+[1.359569] (mobile_robot) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/mene/ws_mobile/src/mobile_robot':\n"}
+[1.359787] (mobile_robot) StdoutLine: {'line': b'4:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/xmllint.xunit.xml\n'}
+[1.417771] (-) TimerEvent: {}
+[1.519083] (-) TimerEvent: {}
+[1.621683] (-) TimerEvent: {}
+[1.722841] (-) TimerEvent: {}
+[1.825231] (-) TimerEvent: {}
+[1.928790] (-) TimerEvent: {}
+[2.031927] (-) TimerEvent: {}
+[2.134122] (-) TimerEvent: {}
+[2.237629] (-) TimerEvent: {}
+[2.348189] (-) TimerEvent: {}
+[2.449465] (-) TimerEvent: {}
+[2.553831] (-) TimerEvent: {}
+[2.658710] (-) TimerEvent: {}
+[2.764438] (-) TimerEvent: {}
+[2.865897] (-) TimerEvent: {}
+[2.967415] (-) TimerEvent: {}
+[3.069242] (-) TimerEvent: {}
+[3.160644] (mobile_robot) StdoutLine: {'line': b"4: File 'package.xml' is valid\n"}
+[3.160854] (mobile_robot) StdoutLine: {'line': b'4: \n'}
+[3.160945] (mobile_robot) StdoutLine: {'line': b'4: No problems found\n'}
+[3.169387] (-) TimerEvent: {}
+[3.176823] (mobile_robot) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[3.177033] (mobile_robot) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/mene/ws_mobile/build/mobile_robot/test_results/mobile_robot/xmllint.xunit.xml'\n"}
+[3.188331] (mobile_robot) StdoutLine: {'line': b'4/4 Test #4: xmllint ..........................   Passed    1.91 sec\n'}
+[3.188700] (mobile_robot) StdoutLine: {'line': b'\n'}
+[3.188974] (mobile_robot) StdoutLine: {'line': b'75% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 4\n'}
+[3.189140] (mobile_robot) StdoutLine: {'line': b'\n'}
+[3.189225] (mobile_robot) StdoutLine: {'line': b'Label Time Summary:\n'}
+[3.189306] (mobile_robot) StdoutLine: {'line': b'flake8        =   0.47 sec*proc (1 test)\n'}
+[3.189393] (mobile_robot) StdoutLine: {'line': b'lint_cmake    =   0.27 sec*proc (1 test)\n'}
+[3.189474] (mobile_robot) StdoutLine: {'line': b'linter        =   2.96 sec*proc (4 tests)\n'}
+[3.189551] (mobile_robot) StdoutLine: {'line': b'pep257        =   0.31 sec*proc (1 test)\n'}
+[3.189627] (mobile_robot) StdoutLine: {'line': b'xmllint       =   1.91 sec*proc (1 test)\n'}
+[3.189704] (mobile_robot) StdoutLine: {'line': b'\n'}
+[3.189816] (mobile_robot) StdoutLine: {'line': b'Total Test time (real) =   2.97 sec\n'}
+[3.189899] (mobile_robot) StdoutLine: {'line': b'\n'}
+[3.189977] (mobile_robot) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[3.190054] (mobile_robot) StdoutLine: {'line': b'\t\x1b[0;31m  1 - flake8 (Failed)\x1b[0;0m\n'}
+[3.190266] (mobile_robot) StderrLine: {'line': b'Errors while running CTest\n'}
+[3.190428] (mobile_robot) StderrLine: {'line': b'Output from these tests are in: /home/mene/ws_mobile/build/mobile_robot/Testing/Temporary/LastTest.log\n'}
+[3.190522] (mobile_robot) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[3.192543] (mobile_robot) CommandEnded: {'returncode': 8}
+[3.193336] (mobile_robot) TestFailure: {'identifier': 'mobile_robot'}
+[3.193399] (mobile_robot) JobEnded: {'identifier': 'mobile_robot', 'rc': 0}
+[3.194518] (-) EventReactorShutdown: {}

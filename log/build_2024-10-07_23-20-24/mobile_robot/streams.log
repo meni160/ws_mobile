@@ -1,0 +1,52 @@
+[0.016s] Invoking command in '/home/mene/ws_mobile/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/mene/ws_mobile/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/mene/ws_mobile/install/mobile_robot
+[0.569s] -- The C compiler identification is GNU 13.2.0
+[1.673s] -- The CXX compiler identification is GNU 13.2.0
+[2.555s] -- Detecting C compiler ABI info
+[2.938s] -- Detecting C compiler ABI info - done
+[2.950s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.955s] -- Detecting C compile features
+[2.956s] -- Detecting C compile features - done
+[3.092s] -- Detecting CXX compiler ABI info
+[3.459s] -- Detecting CXX compiler ABI info - done
+[3.471s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.471s] -- Detecting CXX compile features
+[3.472s] -- Detecting CXX compile features - done
+[3.515s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.750s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.977s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.171s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.171s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.173s] -- Added test 'lint_cmake' to check CMake code style
+[4.177s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.180s] -- Added test 'xmllint' to check XML markup files
+[4.184s] -- Configuring done (4.2s)
+[4.191s] -- Generating done (0.0s)
+[4.193s] -- Build files have been written to: /home/mene/ws_mobile/build/mobile_robot
+[4.202s] Invoked command in '/home/mene/ws_mobile/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/mene/ws_mobile/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/mene/ws_mobile/install/mobile_robot
+[4.203s] Invoking command in '/home/mene/ws_mobile/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mene/ws_mobile/build/mobile_robot -- -j4 -l4
+[4.255s] Invoked command in '/home/mene/ws_mobile/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mene/ws_mobile/build/mobile_robot -- -j4 -l4
+[4.305s] Invoking command in '/home/mene/ws_mobile/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mene/ws_mobile/build/mobile_robot
+[4.315s] -- Install configuration: ""
+[4.316s] -- Up-to-date: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/launch
+[4.316s] -- Up-to-date: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/launch/gazebo_model.launch.py
+[4.316s] -- Up-to-date: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/model
+[4.317s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/model/robot.gazebo
+[4.317s] -- Up-to-date: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/model/robot.xacro
+[4.317s] -- Up-to-date: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/parameters
+[4.317s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/parameters/bridge_parameters.yaml
+[4.321s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[4.321s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[4.322s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[4.322s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[4.322s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/environment/path.sh
+[4.323s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[4.323s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/local_setup.bash
+[4.323s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/local_setup.sh
+[4.324s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[4.324s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[4.324s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/package.dsv
+[4.324s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[4.324s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[4.325s] -- Installing: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[4.325s] -- Up-to-date: /home/mene/ws_mobile/install/mobile_robot/share/mobile_robot/package.xml
+[4.328s] Invoked command in '/home/mene/ws_mobile/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mene/ws_mobile/build/mobile_robot

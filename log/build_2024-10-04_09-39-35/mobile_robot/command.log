@@ -1,0 +1,2 @@
+Invoking command in '/home/mene/ws_mobile/build/mobile_robot': /usr/bin/cmake --build /home/mene/ws_mobile/build/mobile_robot -- -j4 -l4
+Invoked command in '/home/mene/ws_mobile/build/mobile_robot' returned '2': /usr/bin/cmake --build /home/mene/ws_mobile/build/mobile_robot -- -j4 -l4

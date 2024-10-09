@@ -1,0 +1,32 @@
+[0.014s] Invoking command in '/home/mene/ws_mobile/build/mobile_robot': /usr/bin/cmake /home/mene/ws_mobile/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/mene/ws_mobile/install/mobile_robot
+[0.601s] -- The C compiler identification is GNU 13.2.0
+[1.456s] -- The CXX compiler identification is GNU 13.2.0
+[2.194s] -- Detecting C compiler ABI info
+[2.511s] -- Detecting C compiler ABI info - done
+[2.522s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.536s] -- Detecting C compile features
+[2.537s] -- Detecting C compile features - done
+[2.663s] -- Detecting CXX compiler ABI info
+[2.966s] -- Detecting CXX compiler ABI info - done
+[2.978s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.978s] -- Detecting CXX compile features
+[2.979s] -- Detecting CXX compile features - done
+[4.134s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[4.134s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[4.134s]   has asked CMake to find a package configuration file provided by
+[4.134s]   "ament_cmake", but CMake did not find one.
+[4.134s] 
+[4.135s]   Could not find a package configuration file provided by "ament_cmake" with
+[4.135s]   any of the following names:
+[4.135s] 
+[4.135s]     ament_cmakeConfig.cmake
+[4.135s]     ament_cmake-config.cmake
+[4.135s] 
+[4.135s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[4.135s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[4.135s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[4.135s]   has been installed.
+[4.135s] 
+[4.135s] [0m
+[4.136s] -- Configuring incomplete, errors occurred!
+[4.139s] Invoked command in '/home/mene/ws_mobile/build/mobile_robot' returned '1': /usr/bin/cmake /home/mene/ws_mobile/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/mene/ws_mobile/install/mobile_robot
